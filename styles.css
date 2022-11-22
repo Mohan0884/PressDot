@@ -1,0 +1,115 @@
+.navbar-logo{
+    width:80px;
+    height:40px;
+    border-radius: 5px;
+    margin:5px;
+    margin-left:30px;
+    margin-right:5px;
+    
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: white;
+    height:200hv;
+    font-family: 'Comfortaa', cursive;
+}
+.navbar{
+    width:100%;
+    height:80px;
+    align-items: center;
+    background-color: #F9F9F9;
+}
+.icon{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    padding:20px;
+}
+.video-tag{
+    max-width:500px;
+    max-height:800px;
+}
+.video-tag-1{
+    max-width:500px;
+    max-height:800px;
+    display:none;
+}
+hr{
+    width:80%;
+    height:5px;
+    margin:10px;
+    font-weight: 4rem;
+}
+.game-1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:5rem;
+}
+.try{
+    background-color: red;
+    margin:3rem;
+    align-items: center;
+    text-align: center;
+    border-style: solid;
+    transition: 0.4s;
+    padding:10px 40px 10px 40px ;
+    border-radius: 5px;
+
+
+}
+.try:hover{
+
+        background-color: white;
+        border-style: black;
+        color:black;
+    
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.googleplay{
+    width:250px;
+    height:90px;
+    border-radius: 5px;
+
+}
+.googleplay:hover{
+    transition:0.3s;
+    border:solid;
+    background-color: black;
+}
+.gp{
+    border: 5px white;
+}
+.bottom{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 15px;
+   color: white;
+   min-height:30vh;
+   background-color: #393E46;
+}
+.fdbck{
+    padding:15px 30px 15px 30px ;
+    background-color: red;
+    border-radius: 20px;
+    transition: 0.5s;
+    border-style: solid;
+}
+.fdbck:hover{
+    background-color: white;
+    border-style: black;
+    color:black;
+}
+
